@@ -1,4 +1,4 @@
-package com.nicolasf.springframework;
+package com.nicolasf.springframework.game;
 
 import com.nicolasf.springframework.game.GameRunner;
 import com.nicolasf.springframework.game.PacmanGame;

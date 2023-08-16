@@ -1,7 +1,9 @@
 package com.nicolasf.springframework.game;
 
-public class PacmanGame implements GamingConsole {
+import org.springframework.stereotype.Component;
 
+@Component
+public class PacmanGame implements GamingConsole {
     public void up() {
         System.out.println("Eating up");
     }
