@@ -2,8 +2,10 @@ package com.nicolasf.springframework.exercisevideo31;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+@Repository // Indicates that an annotated class is a "Repository" (performs database operations).
 @Primary
 public class MongoDBDataService implements DataService {
     @Override
