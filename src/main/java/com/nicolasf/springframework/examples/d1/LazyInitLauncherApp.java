@@ -26,11 +26,11 @@ class ClassB {
 }
 @Configuration
 @ComponentScan
-public class LazaInitLauncherApp {
+public class LazyInitLauncherApp {
 
     public static void main(String[] args) {
 
-        try(var context = new AnnotationConfigApplicationContext(LazaInitLauncherApp.class)) {
+        try(var context = new AnnotationConfigApplicationContext(LazyInitLauncherApp.class)) {
 
             System.out.println("Context initialized");
 

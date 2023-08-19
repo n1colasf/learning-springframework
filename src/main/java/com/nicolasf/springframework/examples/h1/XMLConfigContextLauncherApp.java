@@ -18,7 +18,6 @@ public class XMLConfigContextLauncherApp {
             System.out.println(context.getBean("age"));
 
             context.getBean(GameRunner.class).run();
-
         }
     }
 }
